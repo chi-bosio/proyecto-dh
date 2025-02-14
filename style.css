@@ -1,24 +1,3 @@
-/* .roboto-mono-<uniquifier> {
-    font-family: "Roboto Mono", serif;
-    font-optical-sizing: auto;
-    font-weight: <weight>;
-    font-style: normal;
-  } */
-
-/* .playfair-display-<uniquifier> {
-    font-family: "Playfair Display", serif;
-    font-optical-sizing: auto;
-    font-weight: <weight>;
-    font-style: normal;
-  } */
-
-/* .raleway-<uniquifier> {
-    font-family: "Raleway", serif;
-    font-optical-sizing: auto;
-    font-weight: <weight>;
-    font-style: normal;
-  } */
-
 * {
   padding: 0;
   margin: 0;
@@ -72,6 +51,7 @@ header {
   font-size: 35px;
   z-index: 101;
   cursor: pointer;
+  font-size: 35px;
 }
 
 #menu-toggle {
@@ -278,7 +258,7 @@ h1 {
     margin-left: 7px 0;
   }
 
-  #menu-toggle:checked + label.menu-icon-action + ul {
+  .navlist.open {
     right: 0;
   }
 }
